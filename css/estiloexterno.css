@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+}
+/*SELECTOR POR ELEMENTO */
+h1{
+    color:cadetblue;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h3{
+    color:blue; 
+    font-size: 20px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+}
