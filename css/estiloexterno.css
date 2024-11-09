@@ -20,3 +20,55 @@ button{
     background-color: black;
     border-radius: 10px;
 }
+.titulos{
+    color: mediumaquamarine;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#id_pie_pagina_uce{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background: antiquewhite;
+}
+/*
+img[src="valorqueyoquiera"]{
+    width: 200px;
+    height: 300px;
+}*/
+/*cuando no quiero quemar valor y si una discriminacion, q todas las img png*/
+img[src=".png"]{
+    width: 200px;
+    height: 300px;
+
+}
+input[type=text]{
+    background-color: bisque;
+}
+button:hover{
+    color:darkgreen;
+    background-color: darkviolet ;
+}
+.titulos:hover{
+    color:darkgreen;
+    background-color: darkviolet ;
+}
+/*combinacion de sleectores*/
+h1{
+    color: cadetblue;
+    background-color: yellow;
+}
+h3{
+    color: cadetblue;
+    background-color: yellow;
+}
+h5{
+    color: cadetblue;
+    background-color: yellow;
+}
+
+h1,h3,h5{
+    color: cadetblue;
+    background-color: yellow;
+}
