@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    /*permite que el contenido se va a distribuir visualmente en una cuadricula*/
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px ;
+    grid-template-rows: 75px 75px 75px 75px 75px 75px;
+    padding: 15px;
+    /* border: solid blue;*/
+    border-radius: 35px;
+    background: rgb(176, 190, 199);
+    box-shadow: 5px 10px 5px 5px rgb(189, 189, 197);
+}
+
+.display {
+    grid-column: span 4;
+    padding: 15px;
+    background: rgb(206, 211, 214);
+    border-radius: 35px;
+    text-align: right;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.span2{
+    grid-column:  span 2;
+}
