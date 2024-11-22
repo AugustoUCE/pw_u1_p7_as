@@ -12,6 +12,7 @@
     padding: 15px;
     /* border: solid blue;*/
     border-radius: 35px;
+    
     background: rgb(176, 190, 199);
     box-shadow: 5px 10px 5px 5px rgb(189, 189, 197);
 }
@@ -30,4 +31,23 @@
 
 .span2{
     grid-column:  span 2;
+}
+
+button{
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 32px;
+    border:none;
+    background: rgb(215, 224, 216);
+    font-size: 25px;
+    color: black;
+    box-shadow: 2px 2px 2px 2px rgb(189, 189, 197) ;
+}
+
+button:hover{
+    background: blanchedalmond;
+}
+button:active{
+    background: rgb(228, 255, 250;
 }

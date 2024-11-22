@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/calculadora.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -11,28 +12,27 @@
     <nav></nav>
     <section>
         <div class="container">
-            
             <div class="calculadora">
 
 
-                <div class="display">
+                <div id="id-display" class="display">
                     1+2
                 </div>
                 <button class="span2">C</button>
                 <button>&larr;</button>
                 <button>%</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
+                <button onclick="obtenerValor()">7</button>
+                <button onclick="obtenerValor()">8</button>
+                <button onclick="obtenerValor()">9</button>
                 <button>X</button>
-                <button>4</button>
-                <button >5</button>
-                <button>6</button>
+                <button onclick="obtenerValor()">4</button>
+                <button onclick="obtenerValor()">5</button>
+                <button onclick="obtenerValor()">6</button>
                 <button>-</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
+                <button onclick="obtenerValor()">1</button>
+                <button onclick="obtenerValor()">2</button>
+                <button onclick="obtenerValor()">3</button>
+                <button onclick="obtenerValor()">+</button>
                 <button class="span2">0</button>
                 <button>.</button>
                 <button>=</button>
