@@ -9,7 +9,7 @@ header{
     font-size: 30px;
 }
 body{
-    background: #59abe3;
+    background: #c8d0d5;
 }
 p:before{
     content: attr(type);
@@ -17,7 +17,7 @@ p:before{
     margin: 2px;
     font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(21, 3, 13);
+    color: #5a5a5a;
 }
 input{
     width: 210px;
@@ -33,7 +33,7 @@ h2{
     margin: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 180px;
-    color: #a7a7c0;
+    color: #0a0a0a;
     border-bottom: 3px solid #78788C;
 }
 form{
@@ -46,4 +46,23 @@ form{
     border-style: outset;
     width: 300px;
     height: 425px;
+}
+
+button{
+    background: #bebed2;
+    border-radius: 5 px;
+    width: 90 px;
+    height: 35 px;
+    color: #000000;
+    font-size: 17 px;
+    cursor: pointer;
+    border: 2 px solid #78788C;
+
+}
+
+
+.container-copia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
